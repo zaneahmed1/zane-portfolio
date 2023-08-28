@@ -8,7 +8,7 @@ export default function Navbar() {
         scroll.scrollToTop();
     }
     const downloadResume = () => {
-        saveAs(Resume);
+        saveAs(Resume, "ZaneAhmedResume.pdf");
       };
 
   return (
