@@ -1,0 +1,39 @@
+/* App.css */
+.sticky-navbar {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: transparent;
+  }
+  
+  .sticky-navbar ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+  }
+  .resumeButton{
+    background-color: #F14C8F;
+    color: white;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .sticky-navbar li {
+    margin-left: 2vw;
+  }
+  
+  .sticky-navbar a {
+    text-decoration: none;
+    color: #FB97AE;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .sticky-navbar a.active {
+    color: #ff5722;
+  }
+  
