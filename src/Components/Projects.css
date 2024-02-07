@@ -1,0 +1,16 @@
+.projects-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    min-height: 100vh;
+    max-width: 100vw;
+}
+
+.project{
+    flex: 1;
+    text-align: center;
+    margin: 8vw;
+    padding-bottom: 30vh;
+    border: 5px solid #F14C8F;
+}
